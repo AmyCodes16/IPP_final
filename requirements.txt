@@ -1,0 +1,7 @@
+streamlit
+pandas
+altair
+vegafusion
+vl-convert-python>=1.6.0
+scikit-learn
+numpy
