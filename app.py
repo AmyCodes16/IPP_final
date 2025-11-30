@@ -153,7 +153,7 @@ elif page == "4. Executive Summary":
 
 # --- PAGE 5: THE SMART PREDICTION SYSTEM (UPDATED) ---
 elif page == "Prediction System":
-    st.title("AI Churn Prediction System")
+    st.title("Churn Prediction System")
     
     if model is None:
         st.error("⚠️ Model not found. Please run 'Phase2_Modeling.ipynb' to generate it.")
@@ -266,3 +266,4 @@ elif page == "Prediction System":
                 except Exception as e:
                     st.error(f"Error processing file: {e}")
                     st.info("Ensure your CSV has the same column names as the training data (gender, tenure, MonthlyCharges, etc.)")
+
